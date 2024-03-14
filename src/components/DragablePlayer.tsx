@@ -127,33 +127,33 @@ return (
                     </div>
                     <img draggable={false} src="https://i.scdn.co/image/ab67616d00001e0222463d6939fec9e17b2a6235" style={{ maxWidth:"90%", maxHeight: "50%", height: "auto", minWidth: "50%" }} className="aspect-square" />
                     <div className="flex h-1/4 mb-4 w-7/8 flex-col flex justify-between">
-                            <div className="flex flex-row justify-between">
-                                    <div className="flex flex-col justify-evenly overflow-x-hidden select-none">
-                                            <p className="text-sm truncate font-medium">Song Title that is rrrr</p>
-                                            <p className="text-xs">Artist</p>
-                                    </div>
-                                    <div className="flex flex-row justify-evenly items-center">
-                                            <IoMdHeartEmpty className="text-3xl active:scale-[.95]" />
-                                            <IoMdHeart className="text-3xl active:scale-[.95]" />
-                                    </div>
-                            </div>
-                            <div>
-                                    <input min={0} max={1000} step={1} type="range" className="bottom-0 w-full bg-blue-600 dark:bg-blue-500" />
-                                    <div className="flex flex-row justify-between">
-                                            <p className="text-sm truncate font-medium">1:32</p>
-                                            <p className="text-sm truncate font-medium">3:45</p>
-                                    </div>
-                            </div>
-                            <div className="flex flex-row justify-between">
-                                    <FaShareAlt className="text-4xl w-1/5 active:scale-[.95]" />
-                                    <FaBackwardStep className="text-4xl w-1/5 active:scale-[.95]" />
-                                    {playing ? <FaPauseCircle className="text-4xl w-1/5 active:scale-[.95]" /> : <FaPlayCircle className="text-4xl w-1/5 active:scale-[.95]" />}
-                                    <FaForwardStep className="text-4xl w-1/5 active:scale-[.95]" />
-                                    <FaRepeat className="text-4xl w-1/5 active:scale-[.95]" />
-                            </div>
-                            <div>
-
-                            </div>
+                        <div className="flex flex-row justify-between">
+                                <div className="flex flex-col justify-evenly overflow-x-hidden select-none">
+                                        <p className="text-sm truncate font-medium">Song Title that is rrrr</p>
+                                        <p className="text-xs">Artist</p>
+                                </div>
+                                <div className="flex flex-row justify-evenly items-center">
+                                        <IoMdHeartEmpty className="text-3xl active:scale-[.95]" />
+                                        <IoMdHeart className="text-3xl active:scale-[.95]" />
+                                </div>
+                        </div>
+                        <div>
+                                <input min={0} max={1000} step={1} type="range" className="bottom-0 w-full bg-blue-600 dark:bg-blue-500" />
+                                <div className="flex flex-row justify-between">
+                                        <p className="text-sm truncate font-medium">1:32</p>
+                                        <p className="text-sm truncate font-medium">3:45</p>
+                                </div>
+                        </div>
+                        <div className="flex flex-row justify-between">
+                                <FaShareAlt className="text-4xl w-1/5 active:scale-[.95]" />
+                                <FaBackwardStep className="text-4xl w-1/5 active:scale-[.95]" />
+                                {playing ? <FaPauseCircle className="text-4xl w-1/5 active:scale-[.95]" /> : <FaPlayCircle className="text-4xl w-1/5 active:scale-[.95]" />}
+                                <FaForwardStep className="text-4xl w-1/5 active:scale-[.95]" />
+                                <FaRepeat className="text-4xl w-1/5 active:scale-[.95]" />
+                        </div>
+                        <div>
+                            
+                        </div>
                     </div>
             </div>
     </animated.div>
